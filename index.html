@@ -15,19 +15,19 @@
      <form id="validate-information">
         <div class="form-group">
             <label for="cn">Card number</label>
-            <input type="text" class="form-control" id="cn" name="cn" placeholder="Enter 16 digits" pattern="[0-9]{16}" minlength="16" maxlength="16" required>
+            <input type="text" class="form-control" id="cn" name="cn" placeholder="Enter 16 digits" pattern="[0-9]{16}" minlength="16" maxlength="16"/>
         </div>
         <div class="form-group">
             <label for="exp">Expery date</label>
-            <input id="exp" class="form-control" name="exp" type="month" required  />
+            <input id="exp" class="form-control" name="exp" type="month"   />
         </div>
         <div class="form-group">
             <label for="cvv">CVV</label>
-            <input id="cvv" class="form-control" name="cvv" type="text" pattern="[0-9]{3}" minlength="3" maxlength="3" required />
+            <input id="cvv" class="form-control" name="cvv" type="text" pattern="[0-9]{3}" minlength="3" maxlength="3"  />
         </div>
         <div class="form-group">
             <label for="name">Name</label>
-            <input id="name" class="form-control" name="name" type="text" maxlength="30" required />
+            <input id="name" class="form-control" name="name" type="text" maxlength="30"  />
         </div>
         <input id="btn-send-pay" class="btn btn-success m-3" type="submit" value="Pay" />
      </form>
